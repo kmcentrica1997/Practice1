@@ -27,9 +27,16 @@ export const styles = StyleSheet.create({
   paymentText: {
     marginLeft: '9.2%',
     fontWeight: 'bold',
+    fontSize: 17,
+    color: '#071330',
   },
   number: {
+    color: '#071330',
     fontWeight: 'bold',
     marginLeft: '9.2%',
+    fontSize: 17,
+  },
+  spacing3: {
+    marginTop: '4%',
   },
 });

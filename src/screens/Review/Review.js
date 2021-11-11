@@ -19,9 +19,9 @@ export default function Review() {
       <View style={styles.spacing1}>
         <View>
           <Text style={styles.paymentText}>Payment set up</Text>
-          <Container text="Add account" />
+          <Container style={{fontWeight: 'bold'}} text="Add account" />
         </View>
-        <View>
+        <View style={styles.spacing3}>
           <Text style={styles.number}>Contact number</Text>
           <Container text="0712345678" />
         </View>

@@ -10,4 +10,10 @@ export const styles = StyleSheet.create({
     marginTop: '2%',
     alignItems: 'stretch',
   },
+  text: {
+    marginLeft: '7%',
+    paddingTop: '6%',
+    fontWeight: 'bold',
+    color: '#071330',
+},
 });
