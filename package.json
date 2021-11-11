@@ -1,0 +1,30 @@
+{
+  "name": "Practice",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "source ~/.bash_profile&&react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "fix": "0.0.6",
+    "react": "17.0.2",
+    "react-native": "^0.66.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^27.3.1",
+    "eslint": "^7.32.0",
+    "jest": "^27.3.1",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
