@@ -15,5 +15,5 @@ export const styles = StyleSheet.create({
     paddingTop: '6%',
     fontWeight: 'bold',
     color: '#071330',
-},
+  },
 });

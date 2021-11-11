@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
     marginTop: '12%',
   },
   paymentText: {
-    marginLeft: '9.2%',
+    marginLeft: '8.6%',
     fontWeight: 'bold',
     fontSize: 17,
     color: '#071330',

@@ -1,17 +1,11 @@
 import React from 'react';
-import {Toolbar} from 'react-native-paper';
-import {
-  StyleSheet,
-  SafeAreaView,
-  Text,
-  View,
-  Platform,
-  StatusBar,
-} from 'react-native';
-export default function TaskBar() {
+import {Text, View} from 'react-native';
+import { styles } from '../TaskBar/TaskBar.styles';
+
+export default function ReviewBar() {
   return (
-    <Toolbar>
-      <Text>Thi</Text>
-    </Toolbar>
+    <View style={styles.container}>
+      <Text style={styles.text}>Review</Text>
+    </View>
   );
 }
